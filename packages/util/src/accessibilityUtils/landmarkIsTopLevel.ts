@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function landmarkIsTopLevel(element: QWElement): boolean {
   const landmarks = ['application', 'banner', 'contentinfo', 'main', 'complementary', 'form', 'navigation', 'region'];

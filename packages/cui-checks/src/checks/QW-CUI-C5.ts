@@ -1,7 +1,7 @@
-import { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Check } from '../lib/Check.object';
-import { ElementExists, ElementHasAttribute, ElementHasNonEmptyAttribute } from '@qualweb/util/applicability';
+import { ElementExists, ElementHasAttribute, ElementHasNonEmptyAttribute } from '@deranged/qualweb-util/applicability';
 import { detectLanguage } from '../lib/language';
 
 /**Answers are in same language than locale? */

@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function Cache(methodName: string) {
   return function (_target: unknown, _propertyKey: string, descriptor: PropertyDescriptor): void {

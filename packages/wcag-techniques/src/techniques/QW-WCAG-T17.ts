@@ -1,8 +1,8 @@
-import { QWElement } from '@qualweb/qw-element';
-import { ElementExists, ElementIsVisible } from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import { QWElement } from '@deranged/qualweb-qw-element';
+import { ElementExists, ElementIsVisible } from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Technique } from '../lib/Technique.object';
-import { QWTextNode } from '@qualweb/qw-element';
+import { QWTextNode } from '@deranged/qualweb-qw-element';
 
 const TEXT_POSITION:Record<string, string[]> = {
   'radio': ['right'],

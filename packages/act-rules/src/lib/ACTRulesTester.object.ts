@@ -1,7 +1,7 @@
-import type { Assertion } from '@qualweb/core/evaluation';
-import type { ModuleTranslator } from '@qualweb/core/locale';
-import type { QWElement } from '@qualweb/qw-element';
-import { Tester } from '@qualweb/core/evaluation';
+import type { Assertion } from '@deranged/qualweb-core/evaluation';
+import type { ModuleTranslator } from '@deranged/qualweb-core/locale';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Tester } from '@deranged/qualweb-core/evaluation';
 import { CompositeRule } from './CompositeRule.object';
 import mapping from './mapping';
 import compositeRules from './mappingComposite';

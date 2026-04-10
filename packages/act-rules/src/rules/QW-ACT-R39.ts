@@ -1,11 +1,11 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import {
   ElementExists,
   ElementHasOneOfTheFollowingRoles,
   ElementIsInAccessibilityTree,
   ElementIsVisible
-} from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+} from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { AtomicRule } from '../lib/AtomicRule.object';
 
 class QW_ACT_R39 extends AtomicRule {

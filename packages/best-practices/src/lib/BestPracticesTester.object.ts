@@ -1,5 +1,5 @@
-import type { ModuleTranslator } from '@qualweb/core/locale';
-import { Tester } from '@qualweb/core/evaluation';
+import type { ModuleTranslator } from '@deranged/qualweb-core/locale';
+import { Tester } from '@deranged/qualweb-core/evaluation';
 import mapping from './mapping';
 import * as bestPractices from '../best-practices';
 

@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getTrimmedText(element: QWElement): string {
   let text = element.getElementText();

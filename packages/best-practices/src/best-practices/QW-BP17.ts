@@ -1,5 +1,5 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { BestPractice } from '../lib/BestPractice.object';
 
 class QW_BP17 extends BestPractice {

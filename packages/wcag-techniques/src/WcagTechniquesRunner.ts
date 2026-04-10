@@ -1,7 +1,7 @@
-import { ModuleTranslator } from '@qualweb/core/locale';
-import { EvaluationModuleDefinition, ModuleOptions, ModuleReport, ModuleType } from '@qualweb/core/evaluation';
+import { ModuleTranslator } from '@deranged/qualweb-core/locale';
+import { EvaluationModuleDefinition, ModuleOptions, ModuleReport, ModuleType } from '@deranged/qualweb-core/evaluation';
 import { WCAGTechniquesTester } from './lib/WCAGTechniquesTester.object';
-import { TranslationOptions } from '@qualweb/locale';
+import { TranslationOptions } from '@deranged/qualweb-locale';
 
 export class WCAGTechniquesRunner extends EvaluationModuleDefinition<WCAGTechniquesTester> {
   protected readonly translator = new ModuleTranslator(this.type, this.translate);

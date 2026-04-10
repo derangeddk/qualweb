@@ -1,5 +1,5 @@
-import type { Translate } from '@qualweb/locale';
-import { Translator } from '@qualweb/locale';
+import type { Translate } from '@deranged/qualweb-locale';
+import { Translator } from '@deranged/qualweb-locale';
 import type { Assertion } from '../evaluation/Assertion';
 import { ModuleType } from '../evaluation/ModuleType';
 

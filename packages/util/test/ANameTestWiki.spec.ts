@@ -1,6 +1,6 @@
 // import { expect } from 'chai';
 import { usePuppeteer } from './util';
-import { QualWeb } from '@qualweb/core';
+import { QualWeb } from '@deranged/qualweb-core';
 
 describe('ANameTestWiki', function () {
   const proxy = usePuppeteer();

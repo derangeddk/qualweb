@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 function elementHasOnePixel(element: QWElement): boolean {
   const height = element.getElementStyleProperty('height', '');
   const background = element.getElementStyleProperty('background-color', '');

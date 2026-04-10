@@ -1,7 +1,7 @@
-declare module "@qualweb/cui-checks" {
-  import { Translate, TranslationValues } from "@qualweb/locale";
-  import { QWElement } from "@qualweb/qw-element";
-  import { Level, Principle } from "@qualweb/evaluation";
+declare module "@deranged/qualweb-cui-checks" {
+  import { Translate, TranslationValues } from "@deranged/qualweb-locale";
+  import { QWElement } from "@deranged/qualweb-qw-element";
+  import { Level, Principle } from "@deranged/qualweb-evaluation";
 
   interface CUIOptions {
     rules?: string[];

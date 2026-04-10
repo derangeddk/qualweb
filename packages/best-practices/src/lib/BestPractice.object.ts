@@ -1,8 +1,8 @@
-import type { TranslationValues } from '@qualweb/locale';
-import type { QWElement } from '@qualweb/qw-element';
-import type { Level, Principle, TestResult, Assertion, Test } from '@qualweb/core/evaluation';
-import { Verdict, Guideline } from '@qualweb/core/evaluation';
-import { ModuleTranslator } from '@qualweb/core/locale';
+import type { TranslationValues } from '@deranged/qualweb-locale';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import type { Level, Principle, TestResult, Assertion, Test } from '@deranged/qualweb-core/evaluation';
+import { Verdict, Guideline } from '@deranged/qualweb-core/evaluation';
+import { ModuleTranslator } from '@deranged/qualweb-core/locale';
 import bestPractices from './bestPractices.json';
 
 abstract class BestPractice extends Guideline {

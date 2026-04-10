@@ -9,12 +9,12 @@ import { PuppeteerOptions } from './options/puppeteer';
 import { ViewportOptions } from './options/viewport';
 import { WcagTechniqueOptions } from './options/wcagTechniques';
 import { ModuleOptionsEnum } from './types';
-import { QualWeb, QualwebOptions } from '@qualweb/core';
-import { ACTRules } from '@qualweb/act-rules';
-import { WCAGTechniquesModule } from '@qualweb/wcag-techniques/WcagTechniquesModule';
-import { BestPractices } from '@qualweb/best-practices';
-import { generateEARLReport } from '@qualweb/earl-reporter';
-import { Counter } from '@qualweb/counter';
+import { QualWeb, QualwebOptions } from '@deranged/qualweb-core';
+import { ACTRules } from '@deranged/qualweb-act-rules';
+import { WCAGTechniquesModule } from '@deranged/qualweb-wcag-techniques/WcagTechniquesModule';
+import { BestPractices } from '@deranged/qualweb-best-practices';
+import { generateEARLReport } from '@deranged/qualweb-earl-reporter';
+import { Counter } from '@deranged/qualweb-counter';
 
 /**
  * Aggregate type containing all option types that have been separately imported

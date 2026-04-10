@@ -1,7 +1,7 @@
-import { CrawlOptions } from '@qualweb/crawler';
+import { CrawlOptions } from '@deranged/qualweb-crawler';
 import { LogOptions } from './LogOptions';
 import { PageOptions } from './PageOptions';
-import { TranslationOptions } from '@qualweb/locale';
+import { TranslationOptions } from '@deranged/qualweb-locale';
 import { PuppeteerLifeCycleEvent } from 'puppeteer';
 import { ExecutableModuleContext } from './evaluation';
 

@@ -1,6 +1,6 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import { Check } from '../lib/Check.object';
-import { ElementExists } from '@qualweb/util/applicability';
+import { ElementExists } from '@deranged/qualweb-util/applicability';
 import { QWBrowserTest } from '../lib/decorator';
 
 class QW_CUI_C9 extends Check {

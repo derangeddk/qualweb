@@ -15,8 +15,8 @@ npm i --save @qualweb/core @qualweb/wcag-techniques
 In your own code, pass an instance of the `WCAGTechniques` class to QualWeb's evaluate method:
 
 ```typescript
-import { WCAGTechniques } from '@qualweb/wcag-techniques';
-import { QualWeb } from '@qualweb/core';
+import { WCAGTechniques } from '@deranged/qualweb-wcag-techniques';
+import { QualWeb } from '@deranged/qualweb-core';
 
 async function main() {
   const qw = new QualWeb();

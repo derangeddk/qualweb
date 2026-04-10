@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 export function ElementExists(_target: any, _propertyKey: string, descriptor: PropertyDescriptor) {
   const method = descriptor.value;

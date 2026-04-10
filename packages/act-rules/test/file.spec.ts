@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { launchBrowser } from './util';
-import { LocaleFetcher } from '@qualweb/locale';
+import { LocaleFetcher } from '@deranged/qualweb-locale';
 import { Browser } from 'puppeteer';
 import { readFileSync } from 'fs';
 

@@ -1,5 +1,5 @@
-import type { Translate, TranslationOptions } from '@qualweb/locale';
-import { LocaleFetcher } from '@qualweb/locale';
+import type { Translate, TranslationOptions } from '@deranged/qualweb-locale';
+import { LocaleFetcher } from '@deranged/qualweb-locale';
 import { ModuleOptions } from './ModuleOptions';
 import { TestingData } from './TestingData';
 import { EvaluationReport } from './EvaluationReport';

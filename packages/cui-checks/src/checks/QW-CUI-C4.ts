@@ -1,5 +1,5 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Check } from '../lib/Check.object';
 import { detectLanguage } from '../lib/language';
 /**Answers are in same language than locale? */

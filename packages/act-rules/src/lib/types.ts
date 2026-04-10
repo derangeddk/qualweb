@@ -1,4 +1,4 @@
-import { Verdict } from '@qualweb/core/evaluation';
+import { Verdict } from '@deranged/qualweb-core/evaluation';
 
 export type RuleResult = {
   [verdict in Verdict]: { title: string; code: string };

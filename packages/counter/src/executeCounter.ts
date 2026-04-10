@@ -1,4 +1,4 @@
-import type { CounterReport } from '@qualweb/core/evaluation';
+import type { CounterReport } from '@deranged/qualweb-core/evaluation';
 
 function executeCounter(): CounterReport {
   const report: CounterReport = {

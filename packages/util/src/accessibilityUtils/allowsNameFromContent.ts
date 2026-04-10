@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import { nameFromContentRoles, nameFromContentElements } from './constants';
 
 function allowsNameFromContent(element: QWElement): boolean {

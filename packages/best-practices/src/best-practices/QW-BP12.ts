@@ -1,6 +1,6 @@
-import { QWElement } from '@qualweb/qw-element';
-import { ElementExists, ElementHasChild } from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import { QWElement } from '@deranged/qualweb-qw-element';
+import { ElementExists, ElementHasChild } from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { BestPractice } from '../lib/BestPractice.object';
 
 class QW_BP12 extends BestPractice {

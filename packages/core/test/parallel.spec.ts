@@ -1,4 +1,4 @@
-import { generateEARLReport } from '@qualweb/earl-reporter';
+import { generateEARLReport } from '@deranged/qualweb-earl-reporter';
 import { QualWeb } from '../src';
 import { expect } from 'chai';
 import fetch from 'node-fetch';

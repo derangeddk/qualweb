@@ -2,13 +2,13 @@ import type {
   EvaluationReport,
   ModuleOptions,
   TestingData,
-} from '@qualweb/core/evaluation';
+} from '@deranged/qualweb-core/evaluation';
 import {
   ModuleType,
   ExecutableModuleContext,
-} from '@qualweb/core/evaluation';
-import type { TranslationOptions } from '@qualweb/locale';
-import type { QualwebPage } from '@qualweb/core/lib';
+} from '@deranged/qualweb-core/evaluation';
+import type { TranslationOptions } from '@deranged/qualweb-locale';
+import type { QualwebPage } from '@deranged/qualweb-core/lib';
 import { CUIChecksRunner } from './CuiChecksRunner';
 import { RuleTest } from './lib/types';
 

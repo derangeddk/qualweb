@@ -1,8 +1,8 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Check } from '../lib/Check.object';
 import { detectLocaleFromDateString } from '../lib/dates';
-import { ElementExists, ElementHasAttribute } from '@qualweb/util/applicability';
+import { ElementExists, ElementHasAttribute } from '@deranged/qualweb-util/applicability';
 // Check if date is in format of users locale
 
 class QW_CUI_C3 extends Check {

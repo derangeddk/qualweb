@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getElementRoleAName(element: QWElement, aName: string | undefined): string | null {
   const explicitRole = element.getElementAttribute('role');

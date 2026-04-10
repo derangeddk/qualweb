@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import allowsNameFromContentFunction from './allowsNameFromContent';
 import getAccessibleNameFunction from './getAccessibleName';
 import getAccessibleNameRecursionFunction from './getAccessibleNameRecursion';

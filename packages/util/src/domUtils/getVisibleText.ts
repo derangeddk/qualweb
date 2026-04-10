@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getVisibleText(element: QWElement): string {
   const children = element.getElementChildren();

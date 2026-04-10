@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function isFocusableBrowser(element: QWElement): boolean {
   element.focusElement();

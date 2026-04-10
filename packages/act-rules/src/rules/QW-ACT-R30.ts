@@ -1,6 +1,6 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { ElementAllowsNameFromContent, ElementExists, ElementIsVisible, ElementIsWidget } from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { ElementAllowsNameFromContent, ElementExists, ElementIsVisible, ElementIsWidget } from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { AtomicRule } from '../lib/AtomicRule.object';
 
 class QW_ACT_R30 extends AtomicRule {

@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getOwnerElement(element: QWElement): QWElement | null {
   const ariaOwner = window.AccessibilityUtils.getAriaOwner(element);

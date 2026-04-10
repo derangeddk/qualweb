@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function isElementFocusableByDefault(element: QWElement): boolean {
   const draggableAttribute = element.getElementAttribute('draggable');

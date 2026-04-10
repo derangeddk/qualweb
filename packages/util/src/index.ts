@@ -1,5 +1,5 @@
-import type { QWPage } from '@qualweb/qw-page';
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWPage } from '@deranged/qualweb-qw-page';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import DomUtils from './domUtils/domUtils';
 import AccessibilityUtils from './accessibilityUtils/accessibilityUtils';
 

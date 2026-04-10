@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getValueFromEmbeddedControl(element: QWElement): string {
   const role = window.AccessibilityUtils.getElementRoleAName(element, '');

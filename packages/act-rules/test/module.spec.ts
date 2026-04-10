@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { QualWeb } from '@qualweb/core';
+import { QualWeb } from '@deranged/qualweb-core';
 import { ACTRules } from '../src';
 
 describe('Module in core', () => {

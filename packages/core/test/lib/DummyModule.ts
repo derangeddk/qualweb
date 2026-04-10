@@ -6,7 +6,7 @@ import {
   ModuleType,
   TestingData,
 } from '../../src';
-import { TranslationOptions } from '@qualweb/locale';
+import { TranslationOptions } from '@deranged/qualweb-locale';
 import { QualwebPage } from '../../src/lib';
 
 /**

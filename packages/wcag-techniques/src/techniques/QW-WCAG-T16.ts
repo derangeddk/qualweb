@@ -1,5 +1,5 @@
-import type { HTMLValidationReport } from '@qualweb/core/evaluation';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { HTMLValidationReport } from '@deranged/qualweb-core/evaluation';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Technique } from '../lib/Technique.object';
 
 class QW_WCAG_T16 extends Technique {

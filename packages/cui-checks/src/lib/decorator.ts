@@ -1,5 +1,5 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 
 type ExecuteMethod = (element?: QWElement) => Promise<void>;
 

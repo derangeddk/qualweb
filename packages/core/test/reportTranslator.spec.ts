@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import type { QualwebReport } from '../src';
 import { ReportTranslator } from '../src';
-import { LocaleFetcher } from '@qualweb/locale';
+import { LocaleFetcher } from '@deranged/qualweb-locale';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import clone from 'lodash.clonedeep';

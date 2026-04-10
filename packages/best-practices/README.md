@@ -19,8 +19,8 @@ npm i --save @qualweb/core @qualweb/best-practices
 In your own code, pass an instance of the `BestPractices` class to QualWeb's evaluate method:
 
 ```typescript
-import { BestPractices } from '@qualweb/best-practices';
-import { QualWeb } from '@qualweb/core';
+import { BestPractices } from '@deranged/qualweb-best-practices';
+import { QualWeb } from '@deranged/qualweb-core';
 
 async function main() {
   const qw = new QualWeb();

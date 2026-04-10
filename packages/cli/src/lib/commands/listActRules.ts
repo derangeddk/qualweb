@@ -1,6 +1,6 @@
 import { Command } from 'commander';
 
-import actRulesJson from '@qualweb/act-rules/lib/rules.json';
+import actRulesJson from '@deranged/qualweb-act-rules/lib/rules.json';
 
 export const ListActRulesCommand = new Command('list-act-rules')
   .description('Lists all the ACT rules known to this program and exits.')

@@ -1,4 +1,4 @@
-import { CSSProperties, CSSProperty, PseudoSelectorProperty, QWElement } from '@qualweb/qw-element';
+import { CSSProperties, CSSProperty, PseudoSelectorProperty, QWElement } from '@deranged/qualweb-qw-element';
 
 export class CSSMapper {
   private readonly pseudoSelectors = [

@@ -1,9 +1,9 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import type { EvaluationElement } from './EvaluationElement';
 import type { TestResult } from './TestResult';
 import { Verdict }from './Verdict';
 
-import type { AccessibilityUtils } from '@qualweb/util';
+import type { AccessibilityUtils } from '@deranged/qualweb-util';
 
 // FIXME: this should come from importing @qualweb/util, and definitely not be
 // an "any" type.

@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 function elementIdIsReferenced(element: QWElement, id: string, attribute: string): boolean {
   let result: boolean;
   try {

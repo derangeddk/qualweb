@@ -1,4 +1,4 @@
-import { PuppeteerLifeCycleEvent } from '@qualweb/core';
+import { PuppeteerLifeCycleEvent } from '@deranged/qualweb-core';
 import { Command, InvalidOptionArgumentError, Option } from 'commander';
 
 export type PuppeteerOptions = {

@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import image from './image.json';
 import video from './video.json';
 import audio from './audio.json';

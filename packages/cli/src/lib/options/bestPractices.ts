@@ -5,7 +5,7 @@ import {
   Option,
 } from 'commander';
 
-import bestPracticesJson from '@qualweb/best-practices/lib/bestPractices.json';
+import bestPracticesJson from '@deranged/qualweb-best-practices/lib/bestPractices.json';
 import { ModuleOptionsEnum, RuleListParseResult } from '../types';
 
 /**

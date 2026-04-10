@@ -3,7 +3,7 @@ import type {
   Assertion as EvaluationAssertion,
   EvaluationReport,
   QualwebReport
-} from '@qualweb/core';
+} from '@deranged/qualweb-core';
 import type {
   EarlEvaluations,
   EarlReport,

@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import { formElements, typesWithLabel } from './constants';
 import getAccessibleNameSVGRecursion from './getAccessibleNameSVGRecursion';
 

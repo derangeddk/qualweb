@@ -1,9 +1,9 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Check } from '../lib/Check.object';
 
 import { IReadibiltyScores, readability } from '../lib/readability';
-import { ElementExists } from '@qualweb/util/applicability';
+import { ElementExists } from '@deranged/qualweb-util/applicability';
 
 class QW_CUI_C2 extends Check {
   @ElementExists

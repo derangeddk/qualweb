@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function isElementADescendantOf(element: QWElement, names: Array<string>, roles: Array<string>): boolean {
   const parent = element.getElementParent();

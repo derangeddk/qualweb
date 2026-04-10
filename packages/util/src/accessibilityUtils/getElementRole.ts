@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getElementRole(element: QWElement): string | null {
   const aName = window.AccessibilityUtils.getAccessibleName(element);

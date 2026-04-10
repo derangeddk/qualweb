@@ -1,8 +1,8 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { ElementExists } from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { ElementExists } from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Technique } from '../lib/Technique.object';
-import AccessibilityUtils from '@qualweb/util/accessibilityUtils';
+import AccessibilityUtils from '@deranged/qualweb-util/accessibilityUtils';
 class QW_WCAG_T14 extends Technique {
   @ElementExists
   execute(element: QWElement): void {

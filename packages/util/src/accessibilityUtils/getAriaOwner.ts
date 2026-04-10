@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getAriaOwner(element: QWElement): QWElement | null {
   const id = element.getElementAttribute('id');

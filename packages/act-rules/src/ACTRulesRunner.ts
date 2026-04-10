@@ -1,19 +1,19 @@
-import type { QWElement } from '@qualweb/qw-element';
-import { ModuleTranslator } from '@qualweb/core/locale';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { ModuleTranslator } from '@deranged/qualweb-core/locale';
 
 import type {
   ModuleOptions,
   TestingData,
-} from '@qualweb/core/evaluation';
+} from '@deranged/qualweb-core/evaluation';
 
 import {
   ModuleType,
   EvaluationModuleDefinition,
   ModuleReport,
-} from '@qualweb/core/evaluation';
+} from '@deranged/qualweb-core/evaluation';
 
 import { ACTRulesTester } from './lib/ACTRulesTester.object';
-import { TranslationOptions } from '@qualweb/locale';
+import { TranslationOptions } from '@deranged/qualweb-locale';
 
 export class ACTRulesRunner extends EvaluationModuleDefinition<ACTRulesTester> {
   // TODO: this used to use a constructor function that was expected to be

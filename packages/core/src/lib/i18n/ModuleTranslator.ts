@@ -1,4 +1,4 @@
-import type { Translate, TranslationValues } from '@qualweb/locale';
+import type { Translate, TranslationValues } from '@deranged/qualweb-locale';
 import { AssertionTranslator } from './AssertionTranslator';
 import { TestTranslator } from './TestTranslator';
 import type { QualwebReport } from '../evaluation/QualwebReport';

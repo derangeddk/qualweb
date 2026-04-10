@@ -1,6 +1,6 @@
 import { Command } from 'commander';
 
-import bestPracticesJson from '@qualweb/best-practices/lib/bestPractices.json';
+import bestPracticesJson from '@deranged/qualweb-best-practices/lib/bestPractices.json';
 
 export const ListBestPracticesCommand = new Command('list-best-practices')
   .description('Lists all the best practices known to this program and exits.')

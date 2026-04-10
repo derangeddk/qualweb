@@ -1,8 +1,8 @@
-import type { ModuleTranslator } from '@qualweb/core/locale';
-import type { TranslationValues } from '@qualweb/locale';
-import type { QWElement } from '@qualweb/qw-element';
-import type { Assertion, Level, Principle, TestResult, Test } from '@qualweb/core/evaluation';
-import { Guideline, Verdict } from '@qualweb/core/evaluation';
+import type { ModuleTranslator } from '@deranged/qualweb-core/locale';
+import type { TranslationValues } from '@deranged/qualweb-locale';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import type { Assertion, Level, Principle, TestResult, Test } from '@deranged/qualweb-core/evaluation';
+import { Guideline, Verdict } from '@deranged/qualweb-core/evaluation';
 import techniques from './techniques.json';
 
 abstract class Technique extends Guideline {

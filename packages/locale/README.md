@@ -78,7 +78,7 @@ The best way to have a translated report is by using the [@qualweb/core](https:/
 ```javascript
 'use strict';
 
-import locales, { translateReport } from '@qualweb/locale';
+import locales, { translateReport } from '@deranged/qualweb-locale';
 
 async () => {
   // EvaluationReport only. EARL report is not currently supported. If you need a EARL report, convert the evaluation report after the translation. Check https://github.com/qualweb/earl-reporter

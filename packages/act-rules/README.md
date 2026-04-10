@@ -15,8 +15,8 @@ npm i --save @qualweb/core @qualweb/act-rules
 In your own code, pass an instance of the `ACTRules` class to QualWeb's evaluate method:
 
 ```typescript
-import { ACTRules } from '@qualweb/act-rules';
-import { QualWeb } from '@qualweb/core';
+import { ACTRules } from '@deranged/qualweb-act-rules';
+import { QualWeb } from '@deranged/qualweb-core';
 
 async function main() {
   const qw = new QualWeb();

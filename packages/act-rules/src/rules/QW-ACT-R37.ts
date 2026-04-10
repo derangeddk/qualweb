@@ -1,11 +1,11 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import {
   ElementExists,
   ElementIsHTMLElement,
   ElementIsNot,
   ElementIsVisible
-} from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+} from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { AtomicRule } from '../lib/AtomicRule.object';
 import Color from 'colorjs.io';
 

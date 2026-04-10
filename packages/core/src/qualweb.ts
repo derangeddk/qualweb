@@ -9,7 +9,7 @@ import type {
   QualwebReport,
 } from './lib/evaluation/QualwebReport';
 import { PuppeteerLifeCycleEvent as LoadEvent } from 'puppeteer';
-import { Crawler, CrawlOptions } from '@qualweb/crawler';
+import { Crawler, CrawlOptions } from '@deranged/qualweb-crawler';
 import {
   EvaluationManager,
   QualwebPage,

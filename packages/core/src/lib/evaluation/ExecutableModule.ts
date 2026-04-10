@@ -5,7 +5,7 @@ import type {
   TestingData,
   ModuleType,
 } from '.';
-import type { TranslationOptions } from '@qualweb/locale';
+import type { TranslationOptions } from '@deranged/qualweb-locale';
 import type { QualwebPage } from '..';
 
 /**

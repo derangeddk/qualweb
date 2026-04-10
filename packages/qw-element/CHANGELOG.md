@@ -78,7 +78,7 @@
   Currently, you might have an evaluation run like this:
 
   ```typescript
-  import { Qualweb } from '@qualweb/core';
+  import { Qualweb } from '@deranged/qualweb-core';
 
   const qw = new QualWeb();
   await qw.start();
@@ -108,9 +108,9 @@
   instead. Updated, the previous example would now look like this:
 
   ```typescript
-  import { Qualweb } from '@qualweb/core';
+  import { Qualweb } from '@deranged/qualweb-core';
   // Import the evaluation module.
-  import { ACTRules } from '@qualweb/act-rules';
+  import { ACTRules } from '@deranged/qualweb-act-rules';
 
   const qw = new Qualweb();
   await qw.start();

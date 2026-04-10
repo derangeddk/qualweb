@@ -1,6 +1,6 @@
 import clone from 'lodash.clonedeep';
-import type { Translate, TranslationOptions } from '@qualweb/locale';
-import { LocaleFetcher } from '@qualweb/locale';
+import type { Translate, TranslationOptions } from '@deranged/qualweb-locale';
+import { LocaleFetcher } from '@deranged/qualweb-locale';
 import { QualwebReport, ModuleType } from '../evaluation';
 import { ModuleTranslator } from './ModuleTranslator';
 

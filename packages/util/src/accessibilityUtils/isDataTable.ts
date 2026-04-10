@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function isDataTable(element: QWElement): boolean {
   // based on https://www.w3.org/TR/WCAG20-TECHS/H43.html

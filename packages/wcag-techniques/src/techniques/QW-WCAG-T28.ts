@@ -1,6 +1,6 @@
-import type { CSSProperties, QWElement } from '@qualweb/qw-element';
-import { ElementExists } from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { CSSProperties, QWElement } from '@deranged/qualweb-qw-element';
+import { ElementExists } from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { Technique } from '../lib/Technique.object';
 
 class QW_WCAG_T28 extends Technique {

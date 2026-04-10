@@ -5,7 +5,7 @@ import {
   Option,
 } from 'commander';
 
-import actRulesJson from '@qualweb/act-rules/lib/rules.json';
+import actRulesJson from '@deranged/qualweb-act-rules/lib/rules.json';
 import { ConformanceLevelEnum, ModuleOptionsEnum, PrincipleEnum, RuleListParseResult } from '../types';
 
 /**

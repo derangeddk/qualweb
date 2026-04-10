@@ -1,6 +1,6 @@
-import type { Assertion } from '@qualweb/core/evaluation';
-import type { QWElement } from '@qualweb/qw-element';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { Assertion } from '@deranged/qualweb-core/evaluation';
+import type { QWElement } from '@deranged/qualweb-qw-element';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import type { ElementResult, RuleResult } from './types';
 import { Rule } from './Rule.object';
 

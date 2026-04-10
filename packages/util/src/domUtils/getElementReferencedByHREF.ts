@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getElementReferencedByHREF(element: QWElement): QWElement | null {
   const href = element.getElementAttribute('href');

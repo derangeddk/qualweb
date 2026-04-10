@@ -1,6 +1,6 @@
-import type { MediaProperties, CSSProperty, MediaProperty, QWElement } from '@qualweb/qw-element';
-import { ElementExists, ElementHasCSSRules, ElementIsVisible } from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+import type { MediaProperties, CSSProperty, MediaProperty, QWElement } from '@deranged/qualweb-qw-element';
+import { ElementExists, ElementHasCSSRules, ElementIsVisible } from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { AtomicRule } from '../lib/AtomicRule.object';
 
 class QW_ACT_R7 extends AtomicRule {

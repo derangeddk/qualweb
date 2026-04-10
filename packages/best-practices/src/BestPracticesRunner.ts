@@ -1,7 +1,7 @@
-import { ModuleTranslator } from '@qualweb/core/locale';
-import { EvaluationModuleDefinition, ModuleOptions, ModuleReport, ModuleType } from '@qualweb/core/evaluation';
+import { ModuleTranslator } from '@deranged/qualweb-core/locale';
+import { EvaluationModuleDefinition, ModuleOptions, ModuleReport, ModuleType } from '@deranged/qualweb-core/evaluation';
 import { BestPracticesTester } from './lib/BestPracticesTester.object';
-import { TranslationOptions } from '@qualweb/locale';
+import { TranslationOptions } from '@deranged/qualweb-locale';
 
 export class BestPracticesRunner extends EvaluationModuleDefinition<BestPracticesTester> {
   protected readonly translator: ModuleTranslator;

@@ -1,6 +1,6 @@
-import type { CounterReport } from '@qualweb/core/evaluation';
-import { ExecutableModuleContext, ModuleType } from '@qualweb/core/evaluation';
-import type { QualwebPage } from '@qualweb/core/lib';
+import type { CounterReport } from '@deranged/qualweb-core/evaluation';
+import { ExecutableModuleContext, ModuleType } from '@deranged/qualweb-core/evaluation';
+import type { QualwebPage } from '@deranged/qualweb-core/lib';
 
 export class CounterModule extends ExecutableModuleContext {
   public readonly name = ModuleType.COUNTER;

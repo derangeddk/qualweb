@@ -5,7 +5,7 @@ import {
   Option,
 } from 'commander';
 
-import wcagTechniquesJson from '@qualweb/wcag-techniques/lib/techniques.json';
+import wcagTechniquesJson from '@deranged/qualweb-wcag-techniques/lib/techniques.json';
 import { ConformanceLevelEnum, ModuleOptionsEnum, PrincipleEnum, RuleListParseResult } from '../types';
 
 /**

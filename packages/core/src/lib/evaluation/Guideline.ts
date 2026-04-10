@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 import type { Assertion } from './Assertion';
 import type { Principle } from './Principle';
 import type { Level } from './Level';

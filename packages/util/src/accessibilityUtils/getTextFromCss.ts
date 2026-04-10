@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function getTextFromCss(element: QWElement, textContent: string): string {
   const before = element.getElementStyleProperty('computed-style-before', 'content');

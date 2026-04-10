@@ -1,12 +1,12 @@
-import { QWElement } from '@qualweb/qw-element';
+import { QWElement } from '@deranged/qualweb-qw-element';
 import {
   ElementExists,
   ElementHasNonEmptyAttribute,
   IsHTMLDocument,
   IsInMainContext,
   IsLangSubTagValid
-} from '@qualweb/util/applicability';
-import { Test, Verdict } from '@qualweb/core/evaluation';
+} from '@deranged/qualweb-util/applicability';
+import { Test, Verdict } from '@deranged/qualweb-core/evaluation';
 import { BestPractice } from '../lib/BestPractice.object';
 
 class QW_BP29 extends BestPractice {

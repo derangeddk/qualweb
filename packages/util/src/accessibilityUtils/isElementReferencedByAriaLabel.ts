@@ -1,4 +1,4 @@
-import type { QWElement } from '@qualweb/qw-element';
+import type { QWElement } from '@deranged/qualweb-qw-element';
 
 function isElementReferencedByAriaLabel(element: QWElement): boolean {
   const id = element.getElementAttribute('id');

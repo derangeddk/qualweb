@@ -1,10 +1,10 @@
-import type { EvaluationReport, ModuleOptions } from '@qualweb/core/evaluation';
+import type { EvaluationReport, ModuleOptions } from '@deranged/qualweb-core/evaluation';
 import {
   ExecutableModuleContext,
   ModuleType,
-} from '@qualweb/core/evaluation';
-import type { TranslationOptions } from '@qualweb/locale';
-import type { QualwebPage } from '@qualweb/core/lib';
+} from '@deranged/qualweb-core/evaluation';
+import type { TranslationOptions } from '@deranged/qualweb-locale';
+import type { QualwebPage } from '@deranged/qualweb-core/lib';
 
 export class BestPracticesModule extends ExecutableModuleContext {
   public readonly name = ModuleType.BEST_PRACTICES;

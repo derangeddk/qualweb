@@ -1,6 +1,6 @@
 import { Command } from 'commander';
 
-import wcagTechniquesJson from '@qualweb/wcag-techniques/lib/techniques.json';
+import wcagTechniquesJson from '@deranged/qualweb-wcag-techniques/lib/techniques.json';
 
 export const ListWcagTechniquesCommand = new Command('list-wcag-techniques')
   .description('Lists all the WCAG techniques known to this program and exits.')
