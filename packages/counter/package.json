@@ -36,7 +36,7 @@
   "author": "Pedro Santos",
   "license": "ISC",
   "devDependencies": {
-    "@deranged/qualweb-core": "^0.8.10",
+    "@deranged/qualweb-core": "^0.8.11",
     "@deranged/qualweb-qw-page": "0.3.6",
     "@deranged/qualweb-util": "0.6.6",
     "@tsconfig/recommended": "^1.0.3",

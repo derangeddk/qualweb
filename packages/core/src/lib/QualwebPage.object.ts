@@ -101,15 +101,15 @@ export class QualwebPage {
 
   private async addNecessaryScripts(): Promise<void> {
     await this.page.addScriptTag({
-      path: require.resolve('@qualweb/qw-page'),
+      path: require.resolve('@deranged/qualweb-qw-page'),
       type: 'text/javascript'
     });
     await this.page.addScriptTag({
-      path: require.resolve('@qualweb/util'),
+      path: require.resolve('@deranged/qualweb-util'),
       type: 'text/javascript'
     });
     await this.page.addScriptTag({
-      path: require.resolve('@qualweb/locale'),
+      path: require.resolve('@deranged/qualweb-locale'),
       type: 'text/javascript'
     });
   }

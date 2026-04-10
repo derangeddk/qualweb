@@ -1,6 +1,6 @@
 {
   "name": "@deranged/qualweb-core",
-  "version": "0.8.10",
+  "version": "0.8.11+0.8.10",
   "description": "QualWeb evaluator core engine",
   "main": "dist/index.js",
   "files": [

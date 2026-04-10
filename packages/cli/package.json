@@ -42,7 +42,7 @@
   "dependencies": {
     "@deranged/qualweb-act-rules": "0.7.7",
     "@deranged/qualweb-best-practices": "0.7.12",
-    "@deranged/qualweb-core": "0.8.10",
+    "@deranged/qualweb-core": "^0.8.11",
     "@deranged/qualweb-counter": "0.3.4",
     "@deranged/qualweb-earl-reporter": "0.5.10",
     "@deranged/qualweb-wcag-techniques": "0.4.7",
