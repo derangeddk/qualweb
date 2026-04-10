@@ -13,7 +13,6 @@
     "lint": "eslint .",
     "format": "prettier src/**/*.ts --write",
     "clean": "rimraf dist",
-    "prebuild": "npm run format",
     "build": "tsc --build tsconfig.prod.json && webpack",
     "prepublishOnly": "npm run build"
   },
