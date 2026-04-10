@@ -1,5 +1,70 @@
 # Changelog
 
+## 0.7.20
+
+### Patch Changes
+
+- Updated dependencies [e0b93ca]
+  - @qualweb/best-practices@0.7.12
+  - @qualweb/wcag-techniques@0.4.7
+
+## 0.7.19
+
+### Patch Changes
+
+- 1441682: Fix result codes F1 and F2, update package versions
+- Updated dependencies [1441682]
+  - @qualweb/core@0.8.10
+  - @qualweb/act-rules@0.7.7
+  - @qualweb/best-practices@0.7.11
+  - @qualweb/wcag-techniques@0.4.6
+  - @qualweb/counter@0.3.4
+  - @qualweb/earl-reporter@0.5.10
+
+## 0.7.18
+
+### Patch Changes
+
+- Updated dependencies [a022d44]
+  - @qualweb/best-practices@0.7.10
+  - @qualweb/wcag-techniques@0.4.5
+
+## 0.7.17
+
+### Patch Changes
+
+- Updated dependencies [0a2a666]
+- Updated dependencies [9a9fa98]
+  - @qualweb/best-practices@0.7.9
+  - @qualweb/wcag-techniques@0.4.4
+  - @qualweb/counter@0.3.3
+  - @qualweb/core@0.8.9
+  - @qualweb/earl-reporter@0.5.9
+
+## 0.7.16
+
+### Patch Changes
+
+- Updated dependencies [d0bcc74]
+  - @qualweb/best-practices@0.7.8
+  - @qualweb/wcag-techniques@0.4.3
+  - @qualweb/core@0.8.8
+  - @qualweb/earl-reporter@0.5.8
+
+## 0.7.15
+
+### Patch Changes
+
+- @qualweb/core@0.8.7
+- @qualweb/earl-reporter@0.5.7
+
+## 0.7.14
+
+### Patch Changes
+
+- Updated dependencies [0a48bed]
+  - @qualweb/act-rules@0.7.6
+
 ## 0.7.13
 
 ### Patch Changes
@@ -132,7 +197,6 @@
   Additionally, several packages are no longer in use. If you are using any of
   the following packages in your project, remove them when you update to the new
   version of `@qualweb/core` to avoid any issues:
-
   - `@qualweb/types`
   - `@qualweb/dom`
   - `@qualweb/evaluation`
@@ -173,7 +237,6 @@
   First, install the modules you use as additional dependencies in your project.
   For this example, adding `@qualweb/act-rules` next to `@qualweb/core` in your
   package.json file. The other modules you might be using are:
-
   - `@qualweb/wcag-techniques`
   - `@qualweb/counter`
   - `@qualweb/best-practices`

@@ -1,6 +1,6 @@
 {
   "name": "@deranged/qualweb-counter",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "Counts elements of a webpage by role and by tag",
   "main": "dist/counter.bundle.js",
   "files": [
@@ -9,7 +9,7 @@
   "types": "prebuild/index.d.ts",
   "scripts": {
     "tsc": "tsc",
-    "test": "mocha test/counter.spec.ts",
+    "test": "mocha -r ts-node/register test/counter.spec.ts",
     "lint": "eslint .",
     "format": "prettier src/**/*.ts --write",
     "clean": "rimraf dist",
@@ -37,9 +37,9 @@
   "author": "Pedro Santos",
   "license": "ISC",
   "devDependencies": {
-    "@qualweb/core": "^0.8.6",
-    "@qualweb/qw-page": "0.3.2",
-    "@qualweb/util": "0.6.5",
+    "@qualweb/core": "^0.8.10",
+    "@qualweb/qw-page": "0.3.6",
+    "@qualweb/util": "0.6.6",
     "@tsconfig/recommended": "^1.0.3",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",

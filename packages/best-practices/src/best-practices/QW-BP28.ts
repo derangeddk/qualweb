@@ -10,22 +10,28 @@ class QW_BP28 extends BestPractice {
     let verdict;
     let resultCode;
 
-    const hasH1 = element.getElements('[role="heading"][aria-level="1"], h1');
-    if (hasH1.length === 1) {
+    const candidates = element.getElements('h1, [role="heading"][aria-level="1"]');
+
+    const accessibleH1s = candidates.filter(h1 => {
+      return window.AccessibilityUtils.isElementInAT(h1);
+    });
+
+    const count = accessibleH1s.length;
+    if (count === 1 ) {
       verdict = Verdict.PASSED;
       resultCode = 'P1';
-    } else if (hasH1.length === 0) {
-      verdict = Verdict.FAILED;
-      resultCode = 'F1';
-      const test = new Test();
-      test.verdict = verdict;
-      test.resultCode = resultCode;
-      this.addTestResult(test);
-    } else {
+      
+    } else if (count > 1) {
       verdict = Verdict.FAILED;
       resultCode = 'F2';
-    } 
-    hasH1.forEach((element) => {
+    } else {
+      const test = new Test();
+      test.verdict = Verdict.FAILED;
+      test.resultCode = 'F1';
+      return this.addTestResult(test);
+    }
+
+    candidates.forEach((element) => {
       const test = new Test();
       test.verdict = verdict;
       test.resultCode = resultCode;

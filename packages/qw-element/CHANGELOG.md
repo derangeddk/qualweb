@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.3.6
+
+### Patch Changes
+
+- 1441682: Fix result codes F1 and F2, update package versions
+
+## 0.3.5
+
+### Patch Changes
+
+- 0a2a666: Enhance WCAG T17 and BP28 checks and improve counter logic in CI workflow, also improved counter module.
+- 9a9fa98: Fix QWTextNode export and update import path
+
+## 0.3.4
+
+### Patch Changes
+
+- d0bcc74: feat: implement QWTextNode & spatial utilities; fix WCAG T17, T3, BP28
+
+## 0.3.3
+
+### Patch Changes
+
+- fd854b3: fix: handle undefined values safely in getElementProperty
+
 ## 0.3.2
 
 ### Patch Changes
@@ -34,7 +59,6 @@
   Additionally, several packages are no longer in use. If you are using any of
   the following packages in your project, remove them when you update to the new
   version of `@qualweb/core` to avoid any issues:
-
   - `@qualweb/types`
   - `@qualweb/dom`
   - `@qualweb/evaluation`
@@ -75,7 +99,6 @@
   First, install the modules you use as additional dependencies in your project.
   For this example, adding `@qualweb/act-rules` next to `@qualweb/core` in your
   package.json file. The other modules you might be using are:
-
   - `@qualweb/wcag-techniques`
   - `@qualweb/counter`
   - `@qualweb/best-practices`

@@ -1,5 +1,40 @@
 # Changelog
 
+## 0.8.10
+
+### Patch Changes
+
+- 1441682: Fix result codes F1 and F2, update package versions
+- Updated dependencies [1441682]
+  - @qualweb/qw-element@0.3.6
+  - @qualweb/qw-page@0.3.6
+  - @qualweb/util@0.6.6
+
+## 0.8.9
+
+### Patch Changes
+
+- Updated dependencies [0a2a666]
+- Updated dependencies [9a9fa98]
+  - @qualweb/qw-element@0.3.5
+  - @qualweb/qw-page@0.3.5
+
+## 0.8.8
+
+### Patch Changes
+
+- Updated dependencies [d0bcc74]
+  - @qualweb/qw-element@0.3.4
+  - @qualweb/qw-page@0.3.4
+
+## 0.8.7
+
+### Patch Changes
+
+- Updated dependencies [fd854b3]
+  - @qualweb/qw-element@0.3.3
+  - @qualweb/qw-page@0.3.3
+
 ## 0.8.6
 
 ### Patch Changes
@@ -74,7 +109,6 @@
   Additionally, several packages are no longer in use. If you are using any of
   the following packages in your project, remove them when you update to the new
   version of `@qualweb/core` to avoid any issues:
-
   - `@qualweb/types`
   - `@qualweb/dom`
   - `@qualweb/evaluation`
@@ -115,7 +149,6 @@
   First, install the modules you use as additional dependencies in your project.
   For this example, adding `@qualweb/act-rules` next to `@qualweb/core` in your
   package.json file. The other modules you might be using are:
-
   - `@qualweb/wcag-techniques`
   - `@qualweb/counter`
   - `@qualweb/best-practices`
