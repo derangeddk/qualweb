@@ -19,11 +19,8 @@
     "test": "mocha",
     "test:rule": "mocha test/rule.spec.ts",
     "test:url": "mocha test/url.spec.ts",
-    "validate:rules": "node validate-rules.js",
-    "compile:rules": "node compile-rules.js",
     "lint": "eslint .",
     "format": "prettier src/**/*.ts --write",
-    "prebuild": "npm run validate:rules",
     "clean": "rimraf dist",
     "build": "tsc --build tsconfig.prod.json && webpack",
     "prepublishOnly": "npm run build"
