@@ -1,6 +1,6 @@
 {
   "name": "@deranged/qualweb-util",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Utilities module for qualweb",
   "main": "dist/__webpack/util.bundle.js",
   "files": [
