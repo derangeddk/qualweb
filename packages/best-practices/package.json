@@ -1,6 +1,6 @@
 {
   "name": "@deranged/qualweb-best-practices",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "QualWeb best practices",
   "files": [
     "dist/*"
@@ -66,9 +66,9 @@
   "author": "João Vicente",
   "license": "ISC",
   "devDependencies": {
-    "@qualweb/core": "npm:@deranged/qualweb-core@^0.9.0",
-    "@qualweb/locale": "npm:@deranged/qualweb-locale@0.3.0",
-    "@qualweb/qw-page": "npm:@deranged/qualweb-qw-page@0.4.0",
+    "@qualweb/core": "npm:@deranged/qualweb-core@^0.10.0",
+    "@qualweb/locale": "npm:@deranged/qualweb-locale@0.4.0",
+    "@qualweb/qw-page": "npm:@deranged/qualweb-qw-page@^0.5.0",
     "@qualweb/util": "npm:@deranged/qualweb-util@0.9.0",
     "@tsconfig/recommended": "^1.0.3",
     "@types/mocha": "^10.0.6",

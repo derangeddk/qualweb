@@ -1,6 +1,6 @@
 {
   "name": "@deranged/qualweb-crawler",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Webpage crawler for qualweb",
   "main": "dist/index.js",
   "files": [
