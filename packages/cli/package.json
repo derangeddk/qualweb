@@ -40,12 +40,12 @@
   "author": "João Vicente",
   "license": "ISC",
   "dependencies": {
-    "@qualweb/act-rules": "npm:@deranged/qualweb-act-rules@0.7.5",
-    "@qualweb/best-practices": "npm:@deranged/qualweb-best-practices@0.7.7",
-    "@qualweb/core": "npm:@deranged/qualweb-core@0.8.5",
-    "@qualweb/counter": "npm:@deranged/qualweb-counter@0.3.2",
-    "@qualweb/earl-reporter": "npm:@deranged/qualweb-earl-reporter@0.5.5",
-    "@qualweb/wcag-techniques": "npm:@deranged/qualweb-wcag-techniques@0.4.2",
+    "@qualweb/act-rules": "npm:@deranged/qualweb-act-rules@0.8.0",
+    "@qualweb/best-practices": "npm:@deranged/qualweb-best-practices@0.8.0",
+    "@qualweb/core": "npm:@deranged/qualweb-core@0.9.0",
+    "@qualweb/counter": "npm:@deranged/qualweb-counter@0.4.0",
+    "@qualweb/earl-reporter": "npm:@deranged/qualweb-earl-reporter@0.6.0",
+    "@qualweb/wcag-techniques": "npm:@deranged/qualweb-wcag-techniques@0.5.0",
     "commander": "^12.1.0",
     "log-update": "^4.0.0"
   },
