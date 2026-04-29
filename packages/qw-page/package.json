@@ -1,5 +1,5 @@
 {
-  "name": "@qualweb/qw-page",
+  "name": "@deranged/qualweb-qw-page",
   "version": "0.4.0",
   "description": "Utilities module for qualweb",
   "main": "dist/qw-page.bundle.js",
