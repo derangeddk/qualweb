@@ -5,7 +5,7 @@ import puppeteer, { Browser, Page } from 'puppeteer';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const require = createRequire(import.meta.url);
+const __require = createRequire(import.meta.url);
 
 describe('QualWeb counter', async () => {
   let browser: Browser;
@@ -27,7 +27,7 @@ describe('QualWeb counter', async () => {
     this.timeout(60 * 1000);
    
     const injectAndMark = async (modulePath: string) => {
-    await page.addScriptTag({ path: require.resolve(modulePath) });
+    await page.addScriptTag({ path: __require.resolve(modulePath) });
     await page.evaluate(() => {
       const scripts = document.querySelectorAll('script');
       scripts[scripts.length - 1].setAttribute('qw-ignore', '');
