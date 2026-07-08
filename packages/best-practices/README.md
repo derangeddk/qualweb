@@ -63,7 +63,7 @@ async function main() {
 | QW-BP11 | HTML | [H48](https://www.w3.org/TR/WCAG20-TECHS/H48.html) | Using br to make a list |
 | QW-BP12 | HTML | [H63](https://www.w3.org/TR/WCAG20-TECHS/H63.html) | Using scope col and row |
 | QW-BP13 | HTML | [H2](https://www.w3.org/WAI/WCAG21/Techniques/html/H2) | Using consecutive links with the same href and one contains an image |
-| QW-BP14 | CSS | [C28](https://www.w3.org/WAI/WCAG21/Techniques/css/C28) | At least one container's width has been specified using values expressed in px |
+| QW-BP14 | CSS | None | At least one container's width has been specified using values expressed in px |
 | QW-BP15 | CSS | None? | At least one width attribute of an HTML element is expressed in absolute values |
 | QW-BP17 | HTML | [G123](https://www.w3.org/TR/2008/WD-WCAG20-TECHS-20080430/G123.html) | Adding a link at the beginning of a block of repeated content to go to the end of the block |
 | QW-BP18 | CSS | [C23](https://www.w3.org/TR/WCAG20-TECHS/C24) | Using percentage values in CSS for container sizes |
