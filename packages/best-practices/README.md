@@ -50,9 +50,9 @@ async function main() {
 
 | QualWeb best practice ID | Related to | Rule ID | Best practice Name |
 |---|---|---|---|
-| QW-BP1 | HTML | [H42](https://www.w3.org/TR/2008/WD-WCAG20-TECHS-20081103/H42) | Using h1-h6 to identify headings |
+| QW-BP1 | HTML | [H42](https://www.w3.org/WAI/WCAG22/Techniques/html/H42) | Using h1-h6 to identify headings |
 | QW-BP2 | HTML | None | Concise images alt text |
-| QW-BP3 | HTML | [H33](https://www.w3.org/WAI/WCAG22/Techniques/html/H33) | Link element with text content equal to the content of the title attribute |
+| QW-BP3 | HTML | [H33?](https://www.w3.org/WAI/WCAG22/Techniques/html/H33) | Link element with text content equal to the content of the title attribute |
 | QW-BP4 | HTML | [H97](https://www.w3.org/WAI/WCAG21/Techniques/html/H97) | Grouped links not within a nav element |
 | QW-BP5 | HTML | None | Using table elements inside other table elements |
 | QW-BP6 | HTML | [None?](https://www.w3.org/Provider/Style/TITLE.html) | Title element is not too long (64 characters) |
@@ -76,7 +76,7 @@ async function main() {
 | QW-BP25 | HTML | None | Landmark complementary is top level |
 | QW-BP26 | HTML | None | Landmark contentinfo is top level |
 | QW-BP27 | HTML | None | Landmark main is top level |
-| QW-BP28 | HTML | None | H1 element is used and unique |
+| QW-BP28 | HTML | None | h1 element is used and unique |
 | QW-BP29 | HTML | [5b7ae0](https://www.w3.org/WAI/standards-guidelines/act/rules/5b7ae0/proposed/) | HTML page lang and xml:lang attributes have matching values |
 | QW-BP30 | HTML | [3ea0c8](https://www.w3.org/WAI/standards-guidelines/act/rules/3ea0c8/proposed/) | Id attribute value is unique |
 
