@@ -41,12 +41,12 @@
   },
   {
     "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImageWithoutText.html",
-    "path": "headingWithImageWithoutText.html",
+    "path": "failed1.html",
     "outcome": "failed"
   },
   {
     "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/svgWithoutAccessibleName.html",
-    "path": "svgWithoutAccessibleName.html",
+    "path": "failed2.html",
     "outcome": "failed"
   }
 ]
