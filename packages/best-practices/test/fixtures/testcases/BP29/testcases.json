@@ -4,7 +4,47 @@
     "outcome": "failed"
   },
   {
+    "path": "inapplicable1.html",
+    "outcome": "inapplicable"
+  },
+  {
     "path": "passed1.html",
     "outcome": "passed"
+  },
+  {
+    "path": "failed2.html",
+    "outcome": "failed"
+  },
+  {
+    "path": "inapplicable2.html",
+    "outcome": "inapplicable"
+  },
+  {
+    "path": "passed2.html",
+    "outcome": "passed"
+  },
+  {
+    "path": "inapplicable3.html",
+    "outcome": "inapplicable"
+  },
+  {
+    "path": "passed3.html",
+    "outcome": "passed"
+  },
+  {
+    "path": "inapplicable4.html",
+    "outcome": "inapplicable"
+  },
+  {
+    "path": "inapplicable5.html",
+    "outcome": "inapplicable"
+  },
+  {
+    "path": "inapplicable6.html",
+    "outcome": "inapplicable"
+  },
+  {
+    "path": "inapplicable7.html",
+    "outcome": "inapplicable"
   }
 ]

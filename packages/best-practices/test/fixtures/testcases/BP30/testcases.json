@@ -4,6 +4,10 @@
     "outcome": "failed"
   },
   {
+    "path": "inapplicable1.html",
+    "outcome": "inapplicable"
+  },
+  {
     "path": "passed1.html",
     "outcome": "passed"
   },
@@ -12,12 +16,27 @@
     "outcome": "failed"
   },
   {
+    "path": "inapplicable2.html",
+    "outcome": "inapplicable"
+  },
+  {
     "path": "passed2.html",
     "outcome": "passed"
   },
   {
+    "path": "failed3.html",
+    "outcome": "failed"
+  },
+  {
+    "path": "inapplicable3.html",
+    "outcome": "inapplicable"
+  },
+  {
     "path": "passed3.html",
     "outcome": "passed"
+  },
+  {
+    "path": "passed4.html",
+    "outcome": "passed"
   }
-
 ]

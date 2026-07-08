@@ -78,6 +78,7 @@ async function main() {
 | QW-BP27 | HTML | None | Landmark main is top level |
 | QW-BP28 | HTML | None | H1 element is used and unique |
 | QW-BP29 | HTML | [5b7ae0](https://www.w3.org/WAI/standards-guidelines/act/rules/5b7ae0/proposed/) | HTML page lang and xml:lang attributes have matching values |
+| QW-BP30 | HTML | [3ea0c8](https://www.w3.org/WAI/standards-guidelines/act/rules/3ea0c8/proposed/) | Id attribute value is unique |
 
 # License
 
