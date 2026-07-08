@@ -15,28 +15,23 @@
     "outcome": "passed"
   },
   {
-    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImageWithAltWithText.html",
+    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImageWithAlt.html",
     "path": "passed2.html",
     "outcome": "passed"
   },
   {
-    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImageWithAlt.html",
+    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImagesAlts.html",
     "path": "passed3.html",
     "outcome": "passed"
   },
   {
-    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImagesAlts.html",
+    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImagesAltAndNoAlt.html",
     "path": "passed4.html",
     "outcome": "passed"
   },
   {
-    "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/headingWithImagesAltAndNoAlt.html",
-    "path": "passed5.html",
-    "outcome": "passed"
-  },
-  {
     "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp8/svgWithAccessibleName.html",
-    "path": "passed6.html",
+    "path": "passed5.html",
     "outcome": "passed"
   },
   {
