@@ -1,7 +1,7 @@
 [
   {
     "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp4/failed.html",
-    "path": "failed.html",
+    "path": "failed1.html",
     "outcome": "failed"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "url": "http://accessible-serv.lasige.di.fc.ul.pt/~bandrade/bp4/inapplicable.html",
-    "path": "inapplicable.html",
+    "path": "inapplicable1.html",
     "outcome": "inapplicable"
   }
 ]

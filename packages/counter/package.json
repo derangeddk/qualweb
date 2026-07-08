@@ -34,6 +34,9 @@
     "html-roles",
     "html-tags"
   ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "author": "Pedro Santos",
   "license": "ISC",
   "devDependencies": {
@@ -42,7 +45,7 @@
     "@qualweb/util": "0.7.4",
     "@tsconfig/recommended": "^1.0.3",
     "@types/chai": "^4.3.11",
-    "@types/mocha": "^10.0.6",
+    "@types/mocha": "^10.0.10",
     "@types/node": "^14.14.37",
     "chai": "4.5.0",
     "esm": "^3.2.25",
