@@ -56,11 +56,11 @@ async function main() {
 | QW-BP4 | HTML | [H97](https://www.w3.org/WAI/WCAG21/Techniques/html/H97) | Grouped links not within a nav element |
 | QW-BP5 | HTML | None | Using table elements inside other table elements |
 | QW-BP6 | HTML | [None?](https://www.w3.org/Provider/Style/TITLE.html) | Title element is not too long (64 characters) |
-| QW-BP7 | HTML | [H86](https://w3c.github.io/wcag/techniques/html/H86) | Title element contains ASCII-art |
+| QW-BP7 | HTML | [H86?](https://w3c.github.io/wcag/techniques/html/H86) | Title element contains ASCII-art |
 | QW-BP8 | HTML | None? | Headings with images should have an accessible name |
 | QW-BP9 | HTML | None | Table element without header cells has a caption |
 | QW-BP10 | HTML | None | HTML elements are used to control visual presentation of content |
-| QW-BP11 | HTML | [H48](https://www.w3.org/TR/WCAG20-TECHS/H48.html) | Using br to make a list |
+| QW-BP11 | HTML | None | Using br to make a list |
 | QW-BP12 | HTML | [H63](https://www.w3.org/TR/WCAG20-TECHS/H63.html) | Using scope col and row |
 | QW-BP13 | HTML | [H2](https://www.w3.org/WAI/WCAG21/Techniques/html/H2) | Using consecutive links with the same href and one contains an image |
 | QW-BP14 | CSS | None | At least one container's width has been specified using values expressed in px |
