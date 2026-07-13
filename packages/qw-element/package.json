@@ -6,7 +6,13 @@
   "files": [
     "dist/*"
   ],
-  "types": "dist/index.d.ts",
+  "exports":{
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
     "tsc": "tsc",
     "test": "mocha --require esm",

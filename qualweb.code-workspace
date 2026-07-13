@@ -58,6 +58,7 @@
     },
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "@qualweb/cli"
+    "liveServer.settings.multiRootWorkspaceName": "@qualweb/cli",
+    "js/ts.tsdk.path": "@qualweb/cui-checks/node_modules/typescript/lib"
   }
 }
