@@ -4,7 +4,7 @@ export const mode = 'production';
 export const entry = './prebuild/index.js';
 export const output = {
   filename: 'qw-page.bundle.js',
-  path: path.resolve(__dirname, 'dist'),
+  path: path.resolve(import.meta.dirname, 'dist'),
   library: {
     type: 'this'
   }
