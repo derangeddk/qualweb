@@ -1,6 +1,9 @@
 import puppeteer from 'puppeteer';
 import { expect } from 'chai';
 import type { QWPage } from '../src/index.js';
+import { resolve } from 'path';
+
+const __dirname = resolve();
 
 declare global {
   interface Window {
@@ -17,10 +20,10 @@ describe('QualWeb page', function () {
     const browserContext = await browser.createBrowserContext();
     const page = await browserContext.newPage();
 
-    await page.goto(`file://${__dirname}/fixtures/empty.html`);
+    await page.goto(`file://${__dirname}/test/fixtures/empty.html`);
 
     try {
-      await page.addScriptTag({ path: require.resolve('../dist/qw-page.bundle.js') });
+      await page.addScriptTag({ url: `file://${__dirname}/dist/qw-page.bundle.js` });
     } catch (_error: unknown) {
       const error = _error as Error;
       expect.fail(error.message);
