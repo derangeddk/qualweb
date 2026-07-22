@@ -60,7 +60,7 @@ describe('File evaluation', function () {
       sourceCode
     );
 
-    console.log(JSON.stringify(report, null, 2));
+    // console.log(JSON.stringify(report, null, 2));
     // console.log(report.assertions['QW-ACT-R7'].results.length);
     expect(report).to.not.be.undefined;
   });
