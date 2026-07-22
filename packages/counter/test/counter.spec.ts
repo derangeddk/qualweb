@@ -1,11 +1,10 @@
 import { expect } from 'chai';
-import { createRequire } from 'module';
-import { dirname, resolve } from 'path';
 import puppeteer, { Browser, Page } from 'puppeteer';
-import { fileURLToPath } from 'url';
+import { resolve } from 'path';
+import { createRequire } from 'module';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const __require = createRequire(import.meta.url);
+const __dirname = resolve();
+const __require = createRequire(__dirname);
 
 describe('QualWeb counter', async () => {
   let browser: Browser;
@@ -33,11 +32,16 @@ describe('QualWeb counter', async () => {
       scripts[scripts.length - 1].setAttribute('qw-ignore', '');
     });
   };
-    await page.goto(`file://${resolve(__dirname, 'fixtures/loremipsum.html')}`);
+    await page.goto(`file://${__dirname}/test/fixtures/loremipsum.html`);
 
    await injectAndMark('@qualweb/qw-page');
    await injectAndMark('@qualweb/util');
-    await injectAndMark('../dist/counter.bundle.js');
+   
+    await page.addScriptTag({ url: `file://${__dirname}/dist/counter.bundle.js` });
+    await page.evaluate(() => {
+      const scripts = document.querySelectorAll('script');
+      scripts[scripts.length - 1].setAttribute('qw-ignore', '');
+    });
 
  
 

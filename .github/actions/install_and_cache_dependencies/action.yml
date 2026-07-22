@@ -1,5 +1,6 @@
 name: Install dependencies
 author: Johannes L. Borresen
+description: Setup Node.js & Install dependencies
 runs:
   using: composite
   steps:
