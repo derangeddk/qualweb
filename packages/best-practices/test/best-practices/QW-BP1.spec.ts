@@ -1,4 +1,4 @@
 import { resolve } from 'node:path';
 import { buildTest } from './template';
 
-buildTest('QW-BP1', resolve(__dirname, '../fixtures/testcases/H42/testcases.json'));
+buildTest('QW-BP1', resolve(__dirname, '../fixtures/testcases/BP1/testcases.json'));

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "passed1.html",
+    "outcome": "passed"
+  },
+    {
+    "path": "failed1.html",
+    "outcome": "failed"
+  }
+]

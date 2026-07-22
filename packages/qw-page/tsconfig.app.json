@@ -1,0 +1,12 @@
+{
+
+  "compilerOptions": {
+
+
+    "types": [
+      "node"
+
+    ] /* Type declaration files to be included in compilation. */
+  
+}
+}

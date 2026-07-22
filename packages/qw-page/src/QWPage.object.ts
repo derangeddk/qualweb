@@ -1,7 +1,7 @@
 import { type CSSProperties, QWElement } from '@qualweb/qw-element';
-import { Cache } from './cache.object';
-import { CSSMapper } from './CssMapper.object';
-import { SelectorCalculator } from './selectorCalculator.object';
+import { Cache } from './cache.object.ts';
+import { CSSMapper } from './CssMapper.object.ts';
+import { SelectorCalculator } from './selectorCalculator.object.ts';
 
 export class QWPage {
   private readonly cache = new Cache();
